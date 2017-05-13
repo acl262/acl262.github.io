@@ -1,46 +1,231 @@
-<<<<<<< HEAD
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
----
-=======
-## Welcome to GitHub Pages
+<em><!DOCTYPE HTML>
+<!--
+	Retrospect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Chris Chen</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="landing">
 
-You can use the [editor on GitHub](https://github.com/acl262/acl262.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+		<!-- Header -->
+			<!--<header id="header" class="alt">
+				<h1><a href="index.html">Retrospect</a></h1>
+				<a href="#nav">Menu</a>
+			</header>-->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+		<!-- Nav -->
+			<!--<nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutme.html">About Me</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+			</nav>-->
 
-### Markdown
+		<!-- Banner -->
+			<section id="banner">
+				<!--<i class="icon fa-diamond"></i>-->
+				<i class="icon fa-ra"></i>
+				<h2>Chris Chen</h2>
+				<p>Computer Science MA, Brandeis Unviersity</p>
+				<p>Bacholer's</p>
+				<ul class="actions">
+					<li><a href="#footer" class="button big special">Contact Me</a></li>
+				</ul>
+			</section>
+			
+			<!-- One -->
+				<section id="one" class="wrapper style1">
+					<div class="inner">
+						<header class="major narrow	">
+							<h2>Coder, Tech, </h2>
+							<p>Fluent in Java, Python, and SQL</p>
+							<p>I majored in accounting</p>
+							<p> Check out my <a href="https://github.com/acl262">Github </a>.</p>
+						</header>
+					<!--<div class="inner">
+						<article class="feature left">
+							<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+							<div class="content">
+								<h2>About Me</h2>
+								<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.</p>
+								<ul class="actions">
+									<li>
+										<a href="#" class="button alt">More</a>
+									</li>
+								</ul>->
+							</div>
+						</article>
+						
+						<article class="feature right">
+							<span class="image"><img src="images/pic02.jpg" alt="" /></span>
+							<div class="content">
+								<h2>Integer vitae libero acrisus egestas placerat  sollicitudin</h2>
+								<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.</p>
+								<ul class="actions">
+									<li>
+										<a href="#" class="button alt">More</a>
+									</li>
+								</ul>
+							</div>
+						</article>-->
+					</div>
+				</section>
+			
+			<!-- Three -->
+				<section id="three" class="wrapper style3 special">
+					<div class="inner">
+						<header class="major narrow	">
+							<h2>Projects</h2>
+							<p>Please contact me for access to private respositories.</p>
+						</header>
+						<!--<ul class="actions">
+							<li><a href="#footer" class="button big alt">Contact Me</a></li>
+						</ul>-->
+					</div>
+				</section>
+				
+			<!-- Two -->
+				<section id="two" class="wrapper special">
+					<div class="inner">
+						<!--<header class="major narrow">
+							<h2>Projects</h2>
+							<p>Ipsum dolor tempus commodo turpis adipiscing Tempor placerat sed amet accumsan</p>
+						</header>
+							
+						<div class="image-grid">
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+							<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+							<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+							<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+							<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+							<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+							<a href="#" class="image"><img src="images/pic10.jpg" alt="" /></a>
+						</div>-->
+						
+						<div class="inner">
+							<article class="feature left">
+								<span class="image"><img src="images/pic02.jpg" alt="" /></span>
+								<div class="content">
+									<h2>Equation Recognition</h2>
+									<p>Python project which is a recognizer that can detect symbol locations within given equation images and convert equation into LaTeX expressions.</p>
+									<!--<p>Repo Status: Public</p>-->
+									<ul class="actions">
+										<li>
+											<a href="https://github.com/SurveyorTeam" class="button alt"><span class="icon fa-github-alt" /> GitHub</a>
+										</li>
+									</ul>
+								</div>
+							</article>
+						
+							<article class="feature right">
+								<span class="image"><img src="images/pandatlogo.ico" alt="" /></span>
+								<div class="content">
+									<h2>Brainwave Visualization</h2>
+									<p>MatLab project in which  brainwave trends are visualized by applying K means algorithm to the raw brainwave EEG data.</p>
+									<!--<p>Repo Status: Public</p>-->
+									<ul class="actions">
+										<li>
+											<a href="https://github.com/acl262" class="button alt"><span class="icon fa-github-alt" />  GitHub</a>
+										</li>
+									</ul>
+								</div>
+							</article>
+							
+							<article class="feature left">
+								<span class="image"><img src="images/pic02.jpg" alt="" /></span>
+								<div class="content">
+									<h2>BLiving</h2>
+									<p>Java project in which an android mobile application designed and implemented an Android mobile application that features posting and selling items among Brandeis community.</p> 
+						
+									<ul class="actions">
+										<li>
+											<a href="https://github.com/acl262" class="button alt"><span class="icon fa-github-alt" /> GitHub</a>
+										</li>
+									</ul>
+								</div>
+							</article>
+						
+						<!--<ul class="actions">
+							<li><a href="#" class="button big alt">Tempus Aliquam</a></li>
+						</ul>-->
+					</div>
+				</section>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+		<!-- Four -->
+			<!--<section id="four" class="wrapper style2 special">
+				<div class="inner">
+					<header class="major narrow">
+						<h2>Get in touch</h2>
+						<p>Ipsum dolor tempus commodo adipiscing</p>
+					</header>
+					<form action="#" method="POST">
+						<div class="container 75%">
+							<div class="row uniform 50%">
+								<div class="6u 12u$(xsmall)">
+									<input name="name" placeholder="Name" type="text" />
+								</div>
+								<div class="6u$ 12u$(xsmall)">
+									<input name="email" placeholder="Email" type="email" />
+								</div>
+								<div class="12u$">
+									<textarea name="message" placeholder="Message" rows="4"></textarea>
+								</div>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" class="special" value="Submit" /></li>
+							<li><input type="reset" class="alt" value="Reset" /></li>
+						</ul>
+					</form>
+				</div>
+			</section>-->
 
-```markdown
-Syntax highlighted code block
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="http://acl262.github.io/" class="icon fa-file-o">
+							<span class="label">Resume</span>
+						</a></li>
+						<li><a href="https://github.com/acl262" class="icon fa-github-alt">
+							<span class="label">Github</span>
+						</a></li>
+						
+						<li><a href="acl262@brandeis.edu" class="icon fa-envelope-o">
+							<span class="label">Email</span>
+						</a></li>
+						<li><a href="https://www.linkedin.com/pub/" class="icon fa-linkedin">
+							<span class="label">LinkedIn</span>
+						</a></li>
+						<li><a href="https://twitter.com/" class="icon fa-twitter">
+							<span class="label">Twitter</span>
+						</a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled.</li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a>.</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a>.</li>
+					</ul>
+				</div>
+			</footer>
 
-# Header 1
-## Header 2
-### Header 3
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/acl262/acl262.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
->>>>>>> 3b04d625ea1a7955457ceedbd1f740f4a9a2debe
+	</body>
+</html></em>
